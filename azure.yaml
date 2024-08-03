@@ -8,6 +8,7 @@ services:
     project: ./app/backend
     language: py
     host: appservice
+    resourceName: chatdemo
     hooks:
       prepackage:
         windows:
